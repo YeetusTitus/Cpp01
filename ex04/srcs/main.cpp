@@ -6,7 +6,7 @@
 /*   By: jforner <jforner@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/21 18:24:28 by jforner           #+#    #+#             */
-/*   Updated: 2022/06/22 21:51:05 by jforner          ###   ########.fr       */
+/*   Updated: 2022/07/06 15:11:09 by jforner          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,6 @@ int main(int argc, char *argv[])
     bfile.seekp(0);
     bfile.write(&sed.getText()[0], sed.getText().length());
 	bfile.close();
+	// system("leaks replace");
 	return 0; 
 }

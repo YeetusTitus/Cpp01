@@ -6,7 +6,7 @@
 /*   By: jforner <jforner@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/21 18:24:28 by jforner           #+#    #+#             */
-/*   Updated: 2022/06/22 13:42:58 by jforner          ###   ########.fr       */
+/*   Updated: 2022/07/06 15:04:49 by jforner          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,6 @@ int	main(void)
 		zomb[i].~Zombie();
 	for (int i = 0; i < nbr; i++)
 		zomboss[i].~Zombie();
-	system("leaks brain");
+	// system("leaks horde");
 	return (0);
 }

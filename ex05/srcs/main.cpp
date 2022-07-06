@@ -6,7 +6,7 @@
 /*   By: jforner <jforner@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/21 18:24:28 by jforner           #+#    #+#             */
-/*   Updated: 2022/06/23 14:04:52 by jforner          ###   ########.fr       */
+/*   Updated: 2022/07/06 15:13:08 by jforner          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ int main()
 		if (std::cin.eof())
 		{
 			std::cerr << "End of file, stop !\n";
+			// system("leaks harl");
 			break;
 		}
 		hal.complain(str);

@@ -6,7 +6,7 @@
 /*   By: jforner <jforner@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/21 18:24:28 by jforner           #+#    #+#             */
-/*   Updated: 2022/06/22 17:03:09 by jforner          ###   ########.fr       */
+/*   Updated: 2022/07/06 15:06:09 by jforner          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int main()
 		jim.attack();
 		club.setType("mitraillete à pompe");
 		jim.attack();
-
 	}
+	// system("leaks war");
 	return 0; 
 }
