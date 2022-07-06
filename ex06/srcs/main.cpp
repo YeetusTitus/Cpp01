@@ -6,7 +6,7 @@
 /*   By: jforner <jforner@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/21 18:24:28 by jforner           #+#    #+#             */
-/*   Updated: 2022/07/06 16:09:27 by jforner          ###   ########.fr       */
+/*   Updated: 2022/07/06 16:31:43 by jforner          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,8 +50,6 @@ int main(int argc, char *argv[])
 		std::cout << "[ No problemo ]" << std::endl;
 		break;
 	}
-
-	std::cout << std::endl;
 }
 	// system("leaks harlFiltrer");
 	return 0; 

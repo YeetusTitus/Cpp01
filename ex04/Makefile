@@ -6,7 +6,7 @@ SRCSD =	$(addprefix ${DIRECTORYS}, $(SRCS))
 
 EFLAGS = -Wall -Wextra -Werror
 
-CLFAGS = -std=c++98
+CFLAGS = -std=c++98
 
 OBJS =	${SRCSD:.cpp=.o}
 
